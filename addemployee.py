@@ -38,7 +38,7 @@ def clear():
 def add():
     global root
     root = Toplevel()
-    root.geometry("1366x768")
+
     root.title("Add Employee")
     # myimage1 = ImageTk.PhotoImage(Image.open('./images/add.png'))
     # label1 = Label(root, image=myimage1)

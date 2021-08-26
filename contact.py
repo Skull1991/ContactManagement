@@ -13,6 +13,8 @@ root=Tk()
 root.geometry("1150x768+185+10")
 root.title("Contact")
 root.resizable(0, 0)
+myimage=ImageTk.PhotoImage(Image.open('./images/40.png'))
+Label(image=myimage).pack()
 # root.iconbitmap('./images/3.ico')
 
 
