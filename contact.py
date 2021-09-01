@@ -3,7 +3,7 @@ from PIL import Image,ImageTk
 import os
 import sqlite3
 from tkinter import messagebox
-import addemployee
+import addcontact
 from tkinter import ttk
 
 
@@ -62,7 +62,7 @@ def save():
     conn.close()
     employeeID.delete(0,END)
     main.destroy()
-    os.system("admin.py")
+    os.system("contact.py")
 
 
 
@@ -207,7 +207,7 @@ def search():
 def adding():
     root.withdraw()
 
-    addemployee.add()
+    addcontact.add()
 
 
 def refresh():
